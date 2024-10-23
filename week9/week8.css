@@ -60,7 +60,8 @@ p {
 table {
     width: 100%; 
     border-collapse: collapse; 
-    margin: 20px 0; 
+    margin: 20px 0;
+    overflow: auto;
 
 }
 
@@ -105,7 +106,8 @@ td {
 .image-gallery {
     display: flex; 
     justify-content: center; 
-    margin-top: 10px; 
+    margin-top: 10px;
+    overflow: auto; 
 }
 
 .image-gallery img {
